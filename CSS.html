@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description"
+            content="Apple Vision Pro headset information webpage">
+
+        <title>Apple Vision Pro Headset </title>
+
+    </head>
+    <style>
+        body {
+            font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue";
+        }
+        
+        h1 {
+            font-size: 6em;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 3em;
+        }
+        
+        footer {
+            text-align: center;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        #waitlist_form textarea {
+            height: 100px;
+            width: 100%;
+            padding: 5px;
+        }
+        
+        #waitlist_form input[type="text"], #waitlist_form input[type="email"] {
+            width: 200px;
+        } 
+        
+        #waitlist_form input, #waitlist_form textarea, #waitlist_form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        #waitlist_form input, #waitlist_form textarea {
+            padding: 5px;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto 25px auto;
+        }
+        
+        .activity-row {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .activity-col {
+            padding: 10px;
+        }
+        .border{
+            border-radius: 75px;
+        }
+        
+        main {
+            border-top: 1px solid grey; 
+            border-bottom: 1px solid grey; 
+        }
+        
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 0;
+            padding: 10px 10px 10px 10px;
+        }
+        
+        nav a:link {
+            color: rgb(247, 228, 15);
+        }
+        
+        nav a:visited {
+            color: lightGray;
+        }
+        
+        nav a:hover {
+            color: white;
+        }
+        
+        nav a:active {
+            color: white;
+        }
+        h3{
+            background-color:black; box-sizing:border-box; color:#FFFFFF !important;
+
+        }
+        h4 {
+            font-size: 3em;
+            text-align: center;
+        }
+    </style>
+
+    <body>
+        <header class="container">
+            <img src="img/logo.png" width="100%"
+                height="Auto"
+                alt="Apple Coroporation Logo" title="Apple Vision Pro Headest Page">
+            <nav>
+                <ul>
+                    <li><a href="#Movies/Entertainment">Movies/Entertainment</a></li>
+                    <li><a href="#Business/News">Business/News</a></li>
+                    <li><a href="#Purchase">Purchase</a></li>
+                    <li><a href="#Waitlist">Waitlist</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1>Apple Vision Pro Headset</h1>
+            </div>
+        </header>
+
+        <main>
+            <article class="activity-row">
+                <div class="activity-col">
+                    <img src="img/Pro_Movies.jpg" width="100%" height="auto" class="border"
+                        alt="Man Watching scenic movie on couch">
+                </div>
+                <div id="Movies/Entertainment" class="container">
+                    <h2>Movies/Entertainment</h2>
+                    <p>
+                        Apple Vision Pro allows for Movie and Show watching waitlists to become more 
+                        <strong> immersive and lively from the comfort of home.</strong>
+                        Watch the big game in high definition and track game scores, player stats, and sports coverage from anywhere.
+                        Also has the ability to support Hi-definition gaming from anywhere.
+
+                    </p>
+                </div>
+            </article>
+        </main>
+        <aside id="Business/News" class="container">
+            <section class="activity-row">
+                <div class="activity-col">
+                <h2>Business/News</h2>
+                <p></p>
+                   Workloads become more manageable with the Apple Vision Pro by allowing access to <strong>related documents, emails, and video conferences</strong> from anywhere. 
+                   Get access to news articles and information right away and while fully multitasking and allowing direct engagement through the headset.
+                </p>
+                </div>
+                <div class="activity-col">
+                <img src="img/Pro_News.jpg" width="100%" height="Auto" class="border"
+                        alt="Woman scrolling through news with the headset">
+                </div>
+            </section>
+            <main>
+            <article class="activity-row">
+                <div class="activiry-col">
+            <h4 id="Purchase" class="container"> How to acquire the Apple Vision Pro?</h4>
+            <img src="img/Title_Img.jpg" width="100%" height="Auto" class="border" alt="Headset on Display stand">
+            <p>
+                You will be able to purchase the Apple Vision Pro at any Apple store in your area. The current sale price of the headset is $3,499 - $4,999. The price is dependent on the model purchased.
+            </p>
+            <ul>
+                <li>256GB</li>
+                <li>512GB</li>
+                <li>1TB</li>
+            </ul>
+            <p>
+               <strong>Get Yours Today!!</strong>
+            </p>
+                </div>
+            </article>
+            </main>
+            <div>
+            <h3 id="Waitlist" class="container">Waitlist Form</h3>
+            <p>
+                If you are interested in buying the Vision Pro Headset for yourself or a loved one, Join the Waitlist for this <strong>AMAZING</strong> piece of Technology.
+            </p>
+            <form id="waitlist_form">
+                <label for="name" class="bold">Name: </label>
+                <input type="text" name="name" id="name"
+                    placeholder="Write your name"><br>
+                <label for="email" class="bold">Email: </label>
+                <input type="email" name="email" id="email"
+                    placeholder="Write your email"><br>
+            </form>
+            </div>
+        </aside>
+
+        <footer class="container";>
+            Copyright &copy; 2024 Apple Inc. All rights reserved.
+        </footer>
+    </body>
+
+</html>
